@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',
+    'rest_framework',
     'fire'
 ]
 
@@ -75,7 +77,6 @@ WSGI_APPLICATION = 'dragon.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL')),
 }

@@ -1,1 +1,1 @@
-export DATABASE_URL='postgresql://daneelfx:admin_password*@localhost/dragon'
+export DATABASE_URL='postgresql://postgres:admin_password*@localhost/dragon'
